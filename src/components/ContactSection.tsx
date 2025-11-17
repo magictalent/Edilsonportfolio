@@ -4,7 +4,7 @@ import { Mail, Copy } from 'lucide-react';
 import { FaTelegramPlane, FaWhatsapp, FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const ContactSection = () => {
-  const email = 'andi.toptalent@gmail.com';
+  const email = 'edilsonnavasis@gmail.com';
   const copyEmail = async () => {
     try {
       await navigator.clipboard.writeText(email);
