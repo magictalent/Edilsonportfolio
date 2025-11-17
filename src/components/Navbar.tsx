@@ -93,7 +93,7 @@ const Navbar = () => {
               </a>
             );
           })}
-          <a href={`assets/kawasaki.pdf`} download="Edilson_Novais_Resume.pdf">
+          <a href={`assets/Edison.pdf`} download="Edilson_Novais_Resume.pdf">
             <Button className="bg-gradient-purple hover:opacity-90">{t('nav.resume')}</Button>
           </a>
           <LanguageSwitcher />
@@ -123,7 +123,7 @@ const Navbar = () => {
                   {t(`nav.${link.key}`)}
                 </a>
               ))}
-              <a href={`assets/kawasaki.pdf`} download="Edilson_Novais_Resume.pdf">
+              <a href={`assets/Edilson.pdf`} download="Edilson_Novais_Resume.pdf">
                 <Button className="bg-gradient-purple hover:opacity-90">{t('nav.resume')}</Button>
               </a>
               <div className="flex justify-center pt-2">
